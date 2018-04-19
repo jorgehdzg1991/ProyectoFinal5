@@ -1,0 +1,5 @@
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Modelos/ProyectoFinal5.Modelos/bin/Debug/ProyectoFinal5.Modelos.dll
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Modelos/ProyectoFinal5.Modelos/bin/Debug/ProyectoFinal5.Modelos.pdb
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Modelos/ProyectoFinal5.Modelos/obj/Debug/ProyectoFinal5.Modelos.csproj.CoreCompileInputs.cache
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Modelos/ProyectoFinal5.Modelos/obj/Debug/ProyectoFinal5.Modelos.dll
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Modelos/ProyectoFinal5.Modelos/obj/Debug/ProyectoFinal5.Modelos.pdb

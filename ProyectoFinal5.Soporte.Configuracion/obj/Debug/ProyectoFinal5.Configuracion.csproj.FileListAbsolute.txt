@@ -1,0 +1,5 @@
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Configuracion/bin/Debug/ProyectoFinal5.Configuracion.dll
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Configuracion/bin/Debug/ProyectoFinal5.Configuracion.pdb
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Configuracion/obj/Debug/ProyectoFinal5.Configuracion.csproj.CoreCompileInputs.cache
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Configuracion/obj/Debug/ProyectoFinal5.Configuracion.dll
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Configuracion/obj/Debug/ProyectoFinal5.Configuracion.pdb

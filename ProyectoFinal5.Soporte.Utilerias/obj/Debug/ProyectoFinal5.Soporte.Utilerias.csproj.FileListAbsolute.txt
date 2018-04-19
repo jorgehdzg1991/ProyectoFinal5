@@ -1,0 +1,5 @@
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Soporte.Utilerias/bin/Debug/ProyectoFinal5.Soporte.Utilerias.dll
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Soporte.Utilerias/bin/Debug/ProyectoFinal5.Soporte.Utilerias.pdb
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Soporte.Utilerias/obj/Debug/ProyectoFinal5.Soporte.Utilerias.csproj.CoreCompileInputs.cache
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Soporte.Utilerias/obj/Debug/ProyectoFinal5.Soporte.Utilerias.dll
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Soporte.Utilerias/obj/Debug/ProyectoFinal5.Soporte.Utilerias.pdb
