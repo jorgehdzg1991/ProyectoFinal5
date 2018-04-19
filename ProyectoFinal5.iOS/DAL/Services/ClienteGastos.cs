@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using ProyectoFinal5.Modelos.Peticiones.Gastos;
 using ProyectoFinal5.Modelos.Respuestas;
 using ProyectoFinal5.iOS.Support;
+using System.Text;
 
 namespace ProyectoFinal5.iOS.DAL.Services
 {
@@ -19,15 +20,17 @@ namespace ProyectoFinal5.iOS.DAL.Services
 
             var url = $"{Constantes.DireccionServicios}/{Modulo}/{nombreServicio}";
 
-            using (var client = new HttpClient())
+            var client = new HttpClient();
+            var request = new HttpRequestMessage(HttpMethod.Post, url);
+
+            var jsonPeticion = JsonConvert.SerializeObject(peticion);
+
+            using (var content = new StringContent(jsonPeticion, Encoding.UTF8, "application/json"))
             {
-                client.DefaultRequestHeaders.Accept.Add(
-                    new MediaTypeWithQualityHeaderValue("application/json"));
+                request.Content = content;
 
-                var jsonPeticion = JsonConvert.SerializeObject(peticion);
-
-                var respuestaApi = await client.PostAsync(url, new StringContent(jsonPeticion));
-                var jsonRespuesta = await respuestaApi.Content.ReadAsStringAsync();
+                var respuestaApi = await client.SendAsync(request).ConfigureAwait(false);
+                var jsonRespuesta = await respuestaApi.Content.ReadAsStringAsync().ConfigureAwait(false);
 
                 return JsonConvert.DeserializeObject<RespuestaApi<bool>>(jsonRespuesta);
             }

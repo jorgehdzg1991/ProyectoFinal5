@@ -142,6 +142,14 @@
     <Compile Include="MapaViewController.designer.cs">
       <DependentUpon>MapaViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="DetalleViewController.cs" />
+    <Compile Include="DetalleViewController.designer.cs">
+      <DependentUpon>DetalleViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GastosViewController.cs" />
+    <Compile Include="GastosViewController.designer.cs">
+      <DependentUpon>GastosViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="iconoD.png" />

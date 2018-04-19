@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{F7B516BF-4B39-4E08-AAB1-CD4320FA1B2D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.iOS/DAL/Services/ClienteUsuarios.cs">
+    <Files>
+      <File FileName="ProyectoFinal5.iOS/GastosViewController.cs" Line="143" Column="17" />
+      <File FileName="ProyectoFinal5.iOS/DAL/Services/ClienteGastos.cs" Line="32" Column="1" />
+      <File FileName="ProyectoFinal5.iOS/DAL/Services/ClienteUsuarios.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.1.Capa.Presentacion.ProyectoFinal5.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6DE87520-9B3D-4CC9-8DD0-902D6B6103AB" />
+</Properties>

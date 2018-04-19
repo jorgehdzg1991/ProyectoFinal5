@@ -28,47 +28,49 @@ namespace ProyectoFinal5.iOS
 
             try
             {
-                var primera = _posiciones[0];
-                var ultima = _posiciones[_posiciones.Count - 1];
+                if (_posiciones.Count >= 2)
+                {
+                    var primera = _posiciones[0];
+                    var ultima = _posiciones[_posiciones.Count - 1];
 
-                var Centrar = new CLLocationCoordinate2D(primera.Coordenada.Latitud, primera.Coordenada.Longitud);
-                var Altura = new MKCoordinateSpan(.1, .1);
-                var Region = new MKCoordinateRegion(Centrar, Altura);
+                    var Centrar = new CLLocationCoordinate2D(primera.Coordenada.Latitud, primera.Coordenada.Longitud);
+                    var Altura = new MKCoordinateSpan(.1, .1);
+                    var Region = new MKCoordinateRegion(Centrar, Altura);
 
-                Mapa.SetRegion(Region, true);
+                    Mapa.SetRegion(Region, true);
 
-                _posiciones.ForEach(x => Mapa.AddAnnotation(
-                    new MKPointAnnotation()
-                    {
-                        Title = x.ViajeId.ToString(),
-                        Coordinate = new CLLocationCoordinate2D()
+                    _posiciones.ForEach(x => Mapa.AddAnnotation(
+                        new MKPointAnnotation()
                         {
-                            Latitude = x.Coordenada.Latitud,
-                            Longitude = x.Coordenada.Longitud
-                        }
-                    }));
+                            Title = x.ViajeId.ToString(),
+                            Coordinate = new CLLocationCoordinate2D()
+                            {
+                                Latitude = x.Coordenada.Latitud,
+                                Longitude = x.Coordenada.Longitud
+                            }
+                        }));
 
-                var origen = new CLLocationCoordinate2D(primera.Coordenada.Latitud, primera.Coordenada.Longitud);
-                var destino = new CLLocationCoordinate2D(ultima.Coordenada.Latitud, ultima.Coordenada.Longitud);
-                var Info = new NSDictionary();
-                var OrigenDestino = new MKDirectionsRequest()
-                {
-                    Source = new MKMapItem(new MKPlacemark(origen, Info)),
-                    Destination = new MKMapItem(new MKPlacemark(destino, Info))
-                };
-                var Direcciones = new MKDirections(OrigenDestino);
-                Direcciones.CalculateDirections((response, error) =>
-                {
-                    var ruta = response.Routes[0];
-                    var Linea = new MKPolylineRenderer(ruta.Polyline)
+                    var origen = new CLLocationCoordinate2D(primera.Coordenada.Latitud, primera.Coordenada.Longitud);
+                    var destino = new CLLocationCoordinate2D(ultima.Coordenada.Latitud, ultima.Coordenada.Longitud);
+                    var Info = new NSDictionary();
+                    var OrigenDestino = new MKDirectionsRequest()
                     {
-                        LineWidth = 5.0f,
-                        StrokeColor = UIColor.Orange
+                        Source = new MKMapItem(new MKPlacemark(origen, Info)),
+                        Destination = new MKMapItem(new MKPlacemark(destino, Info))
                     };
-                    Mapa.OverlayRenderer = (mapView, overlay) => Linea;
-                    Mapa.AddOverlay(ruta.Polyline, MKOverlayLevel.AboveRoads);
-                });
-
+                    var Direcciones = new MKDirections(OrigenDestino);
+                    Direcciones.CalculateDirections((response, error) =>
+                    {
+                        var ruta = response.Routes[0];
+                        var Linea = new MKPolylineRenderer(ruta.Polyline)
+                        {
+                            LineWidth = 5.0f,
+                            StrokeColor = UIColor.Orange
+                        };
+                        Mapa.OverlayRenderer = (mapView, overlay) => Linea;
+                        Mapa.AddOverlay(ruta.Polyline, MKOverlayLevel.AboveRoads);
+                    });
+                }
             }
             catch (Exception ex)
             {

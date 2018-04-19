@@ -41,7 +41,7 @@ namespace ProyectoFinal5.iOS.Models
 
             var controlador = _storyboard.InstantiateViewController("tabsViewController") as TabsViewController;
 
-            controlador.ViajeId = viaje.ViajeId;
+            TabsViewController.ViajeId = viaje.ViajeId;
             _navigationController.PushViewController(controlador,true);
 
         }
