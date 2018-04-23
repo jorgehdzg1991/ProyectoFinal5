@@ -1,9 +1,13 @@
 ﻿<Properties StartupConfiguration="{F7B516BF-4B39-4E08-AAB1-CD4320FA1B2D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.iOS/DAL/Services/ClienteUsuarios.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.iOS/Support/Colores.cs">
     <Files>
-      <File FileName="ProyectoFinal5.iOS/GastosViewController.cs" Line="143" Column="17" />
-      <File FileName="ProyectoFinal5.iOS/DAL/Services/ClienteGastos.cs" Line="32" Column="1" />
-      <File FileName="ProyectoFinal5.iOS/DAL/Services/ClienteUsuarios.cs" Line="1" Column="1" />
+      <File FileName="ProyectoFinal5.iOS/GastosViewController.cs" Line="159" Column="56" />
+      <File FileName="ProyectoFinal5.iOS/GastosViewController.designer.cs" Line="10" Column="29" />
+      <File FileName="ProyectoFinal5.iOS/Models/TblViajesSource.cs" Line="45" Column="1" />
+      <File FileName="ProyectoFinal5.iOS/Main.cs" Line="12" Column="1" />
+      <File FileName="ProyectoFinal5.Servicios/Controllers/ViajesController.cs" Line="100" Column="1" />
+      <File FileName="ProyectoFinal5.iOS/PrimaryButton.cs" Line="16" Column="58" />
+      <File FileName="ProyectoFinal5.iOS/Support/Colores.cs" Line="8" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
@@ -12,5 +16,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.1.Capa.Presentacion.ProyectoFinal5.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6DE87520-9B3D-4CC9-8DD0-902D6B6103AB" />
+  <MonoDevelop.Ide.ItemProperties.1.Capa.Presentacion.ProyectoFinal5.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2FBC3493-6EBD-4674-8D7C-6EB52297FFCD" />
 </Properties>

@@ -150,6 +150,11 @@
     <Compile Include="GastosViewController.designer.cs">
       <DependentUpon>GastosViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Support\Colores.cs" />
+    <Compile Include="PrimaryButton.cs" />
+    <Compile Include="PrimaryButton.designer.cs">
+      <DependentUpon>PrimaryButton.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="iconoD.png" />
