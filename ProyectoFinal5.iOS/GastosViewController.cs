@@ -97,7 +97,7 @@ namespace ProyectoFinal5.iOS
                                 });
                             break;
                         case (int)TipoGasto.Casetas:
-                            if (TxtGasolina.Text.Trim() != "")
+                            if (TxtCasetas.Text.Trim() != "")
                                 _gastos.Add(new GastoViaje
                                 {
                                     ViajeId = TabsViewController.ViajeId,
@@ -106,7 +106,7 @@ namespace ProyectoFinal5.iOS
                                 });
                             break;
                         case (int)TipoGasto.Alimentos:
-                            if (TxtGasolina.Text.Trim() != "")
+                            if (TxtAlimentos.Text.Trim() != "")
                                 _gastos.Add(new GastoViaje
                                 {
                                     ViajeId = TabsViewController.ViajeId,
@@ -115,7 +115,7 @@ namespace ProyectoFinal5.iOS
                                 });
                             break;
                         case (int)TipoGasto.Hospedaje:
-                            if (TxtGasolina.Text.Trim() != "")
+                            if (TxtHospedaje.Text.Trim() != "")
                                 _gastos.Add(new GastoViaje
                                 {
                                     ViajeId = TabsViewController.ViajeId,
@@ -124,7 +124,7 @@ namespace ProyectoFinal5.iOS
                                 });
                             break;
                         case (int)TipoGasto.Otros:
-                            if (TxtGasolina.Text.Trim() != "")
+                            if (TxtOtros.Text.Trim() != "")
                                 _gastos.Add(new GastoViaje
                                 {
                                     ViajeId = TabsViewController.ViajeId,

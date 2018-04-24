@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.Droid/ViajeFragment.cs">
     <Files>
-      <File FileName="ProyectoFinal5.Droid/ViajeActivity.cs" Line="50" Column="71" />
-      <File FileName="ProyectoFinal5.Droid/MainActivity.cs" Line="145" Column="41" />
-      <File FileName="ProyectoFinal5.Droid/ViajeFragment.cs" Line="30" Column="22" />
+      <File FileName="ProyectoFinal5.Droid/ViajeFragment.cs" Line="185" Column="58" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

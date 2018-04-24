@@ -1,16 +1,15 @@
-﻿using Android.App;
-using Android.Widget;
-using Android.OS;
-using System.Threading.Tasks;
-using ProyectoFinal5.Droid.DAL.Services;
+﻿using System;
 using System.Collections.Generic;
-using ProyectoFinal5.Modelos.Entidades;
-using ProyectoFinal5.Droid.Support;
 using System.Linq;
-using System;
+using System.Threading.Tasks;
+using Android.App;
 using Android.Content;
+using Android.OS;
 using Android.Support.V7.App;
-using Android.Graphics.Drawables;
+using Android.Widget;
+using ProyectoFinal5.Droid.DAL.Services;
+using ProyectoFinal5.Droid.Support;
+using ProyectoFinal5.Modelos.Entidades;
 
 namespace ProyectoFinal5.Droid
 {
@@ -33,7 +32,7 @@ namespace ProyectoFinal5.Droid
             var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.MainToolbar);
 
             toolbar.SetTitleTextColor(Colores.Icons);
-            toolbar.SetBackgroundColor(Colores.Accent);
+            toolbar.SetBackgroundColor(Colores.DarkPrimary);
 
             SetSupportActionBar(toolbar);
 

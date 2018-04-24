@@ -18,8 +18,10 @@
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/android/assets/System.Runtime.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/android/assets/System.Xml.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/android/assets/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/android/assets/Xamarin.Android.Support.Design.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/android/assets/Xamarin.Android.Support.v4.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.RecyclerView.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/android/assets/Xamarin.Android.Support.Vector.Drawable.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/android/assets/System.Threading.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/android/assets/System.Collections.dll
