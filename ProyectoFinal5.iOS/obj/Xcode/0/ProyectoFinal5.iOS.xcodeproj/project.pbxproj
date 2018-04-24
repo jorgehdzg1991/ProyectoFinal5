@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6978DB0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518B92170000000000000000 /* UIKit.framework */; };
+		B13F3D6D0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386156A90000000000000000 /* MapKit.framework */; };
+		E83B2C540000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5D45900000000000000000 /* Foundation.framework */; };
+		1F371B3B0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65934770000000000000000 /* CoreGraphics.framework */; };
+		D8D86D720000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA86AE0000000000000000 /* Assets.xcassets */; };
+		6A1503340000000000000000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1371C700000000000000000 /* LaunchScreen.storyboard */; };
+		F49545F20000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB75F2E0000000000000000 /* Main.storyboard */; };
+		BB847C120000000000000000 /* CeldaListaViajes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A6954E0000000000000000 /* CeldaListaViajes.xib */; };
+		7D00ADB70000000000000000 /* TabsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 422C6F300000000000000000 /* TabsViewController.xib */; };
+		13B047F40000000000000000 /* MapaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AD261300000000000000000 /* MapaViewController.xib */; };
+		C38A1D9F0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AAC36DB0000000000000000 /* Info.plist */; };
+		EC41DA0E0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7363F34A0000000000000000 /* Entitlements.plist */; };
+		D88AA31B0000000000000000 /* iconoD.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FACBC570000000000000000 /* iconoD.png */; };
+		410F7C6E0000000000000000 /* iconoG.png in Resources */ = {isa = PBXBuildFile; fileRef = C83195AA0000000000000000 /* iconoG.png */; };
+		F0E952190000000000000000 /* iconoM.png in Resources */ = {isa = PBXBuildFile; fileRef = 780B6B550000000000000000 /* iconoM.png */; };
+		D7BF16AB0000000000000000 /* PrimaryButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 5EE12FE70000000000000000 /* PrimaryButton.h */; };
+		E74C97AC0000000000000000 /* PrimaryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6EB0E80000000000000000 /* PrimaryButton.m */; };
+		1C33AB9A0000000000000000 /* GastosViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = A355C4D60000000000000000 /* GastosViewController.h */; };
+		114DA2A40000000000000000 /* GastosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 986FBBE00000000000000000 /* GastosViewController.m */; };
+		A49F135F0000000000000000 /* DetalleViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2BC12C9B0000000000000000 /* DetalleViewController.h */; };
+		A28A38660000000000000000 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC51A20000000000000000 /* DetalleViewController.m */; };
+		75A8C6050000000000000000 /* MapaViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = FCCADF410000000000000000 /* MapaViewController.h */; };
+		2E53C9AD0000000000000000 /* MapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E2E90000000000000000 /* MapaViewController.m */; };
+		E6FECD550000000000000000 /* TabsViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 6E20E6910000000000000000 /* TabsViewController.h */; };
+		FBFF52D10000000000000000 /* TabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83216C0D0000000000000000 /* TabsViewController.m */; };
+		1672DCC80000000000000000 /* CeldaListaViajes.h in Sources */ = {isa = PBXBuildFile; fileRef = 9D94F6040000000000000000 /* CeldaListaViajes.h */; };
+		30E666BF0000000000000000 /* CeldaListaViajes.m in Sources */ = {isa = PBXBuildFile; fileRef = B8087FFB0000000000000000 /* CeldaListaViajes.m */; };
+		87C8E4180000000000000000 /* LoginViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD5400000000000000000 /* LoginViewController.h */; };
+		DEAB61710000000000000000 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD7AAD0000000000000000 /* LoginViewController.m */; };
+		BCAFF8060000000000000000 /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 43D211420000000000000000 /* ViewController.h */; };
+		9AB48E9B0000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D6A7D70000000000000000 /* ViewController.m */; };
+		3C4A31CE0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = C36C4B0A0000000000000000 /* AppDelegate.h */; };
+		FF0FB1FC0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8631CB380000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		213F06AA0000000000000000 /* ProyectoFinal5.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ProyectoFinal5.iOS.app"; path = "ProyectoFinal5.iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518B92170000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		386156A90000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		6F5D45900000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		A65934770000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		5FFA86AE0000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		F1371C700000000000000000 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "LaunchScreen.storyboard"; path = "LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		7BB75F2E0000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		42A6954E0000000000000000 /* CeldaListaViajes.xib */ = {isa = PBXFileReference; name = "CeldaListaViajes.xib"; path = "CeldaListaViajes.xib"; sourceTree = "<group>"; };
+		422C6F300000000000000000 /* TabsViewController.xib */ = {isa = PBXFileReference; name = "TabsViewController.xib"; path = "TabsViewController.xib"; sourceTree = "<group>"; };
+		9AD261300000000000000000 /* MapaViewController.xib */ = {isa = PBXFileReference; name = "MapaViewController.xib"; path = "MapaViewController.xib"; sourceTree = "<group>"; };
+		4AAC36DB0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		7363F34A0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		5FACBC570000000000000000 /* iconoD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconoD.png"; path = "iconoD.png"; sourceTree = "<group>"; };
+		C83195AA0000000000000000 /* iconoG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconoG.png"; path = "iconoG.png"; sourceTree = "<group>"; };
+		780B6B550000000000000000 /* iconoM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconoM.png"; path = "iconoM.png"; sourceTree = "<group>"; };
+		5EE12FE70000000000000000 /* PrimaryButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PrimaryButton.h"; path = "PrimaryButton.h"; sourceTree = "<group>"; };
+		6E6EB0E80000000000000000 /* PrimaryButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PrimaryButton.m"; path = "PrimaryButton.m"; sourceTree = "<group>"; };
+		A355C4D60000000000000000 /* GastosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GastosViewController.h"; path = "GastosViewController.h"; sourceTree = "<group>"; };
+		986FBBE00000000000000000 /* GastosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "GastosViewController.m"; path = "GastosViewController.m"; sourceTree = "<group>"; };
+		2BC12C9B0000000000000000 /* DetalleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DetalleViewController.h"; path = "DetalleViewController.h"; sourceTree = "<group>"; };
+		29AC51A20000000000000000 /* DetalleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DetalleViewController.m"; path = "DetalleViewController.m"; sourceTree = "<group>"; };
+		FCCADF410000000000000000 /* MapaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MapaViewController.h"; path = "MapaViewController.h"; sourceTree = "<group>"; };
+		B575E2E90000000000000000 /* MapaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MapaViewController.m"; path = "MapaViewController.m"; sourceTree = "<group>"; };
+		6E20E6910000000000000000 /* TabsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TabsViewController.h"; path = "TabsViewController.h"; sourceTree = "<group>"; };
+		83216C0D0000000000000000 /* TabsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TabsViewController.m"; path = "TabsViewController.m"; sourceTree = "<group>"; };
+		9D94F6040000000000000000 /* CeldaListaViajes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CeldaListaViajes.h"; path = "CeldaListaViajes.h"; sourceTree = "<group>"; };
+		B8087FFB0000000000000000 /* CeldaListaViajes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CeldaListaViajes.m"; path = "CeldaListaViajes.m"; sourceTree = "<group>"; };
+		EEAFD5400000000000000000 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoginViewController.h"; path = "LoginViewController.h"; sourceTree = "<group>"; };
+		65CD7AAD0000000000000000 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LoginViewController.m"; path = "LoginViewController.m"; sourceTree = "<group>"; };
+		43D211420000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
+		21D6A7D70000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
+		C36C4B0A0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		8631CB380000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C6E61E0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6978DB0000000000000000 /* UIKit.framework in Frameworks */,
+				B13F3D6D0000000000000000 /* MapKit.framework in Frameworks */,
+				E83B2C540000000000000000 /* Foundation.framework in Frameworks */,
+				1F371B3B0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E46A3600000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				FA9C25340000000000000000 /* ProyectoFinal5.iOS */,
+				F73DFBB20000000000000000 /* Frameworks */,
+				CC71644A0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC71644A0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				213F06AA0000000000000000 /* ProyectoFinal5.iOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		F73DFBB20000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				518B92170000000000000000 /* UIKit.framework */,
+				386156A90000000000000000 /* MapKit.framework */,
+				6F5D45900000000000000000 /* Foundation.framework */,
+				A65934770000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		FA9C25340000000000000000 /* ProyectoFinal5.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C36C4B0A0000000000000000 /* AppDelegate.h */,
+				8631CB380000000000000000 /* AppDelegate.m */,
+				5FFA86AE0000000000000000 /* Assets.xcassets */,
+				9D94F6040000000000000000 /* CeldaListaViajes.h */,
+				B8087FFB0000000000000000 /* CeldaListaViajes.m */,
+				42A6954E0000000000000000 /* CeldaListaViajes.xib */,
+				2BC12C9B0000000000000000 /* DetalleViewController.h */,
+				29AC51A20000000000000000 /* DetalleViewController.m */,
+				7363F34A0000000000000000 /* Entitlements.plist */,
+				A355C4D60000000000000000 /* GastosViewController.h */,
+				986FBBE00000000000000000 /* GastosViewController.m */,
+				5FACBC570000000000000000 /* iconoD.png */,
+				C83195AA0000000000000000 /* iconoG.png */,
+				780B6B550000000000000000 /* iconoM.png */,
+				4AAC36DB0000000000000000 /* Info.plist */,
+				F1371C700000000000000000 /* LaunchScreen.storyboard */,
+				EEAFD5400000000000000000 /* LoginViewController.h */,
+				65CD7AAD0000000000000000 /* LoginViewController.m */,
+				7BB75F2E0000000000000000 /* Main.storyboard */,
+				FCCADF410000000000000000 /* MapaViewController.h */,
+				B575E2E90000000000000000 /* MapaViewController.m */,
+				9AD261300000000000000000 /* MapaViewController.xib */,
+				5EE12FE70000000000000000 /* PrimaryButton.h */,
+				6E6EB0E80000000000000000 /* PrimaryButton.m */,
+				6E20E6910000000000000000 /* TabsViewController.h */,
+				83216C0D0000000000000000 /* TabsViewController.m */,
+				422C6F300000000000000000 /* TabsViewController.xib */,
+				43D211420000000000000000 /* ViewController.h */,
+				21D6A7D70000000000000000 /* ViewController.m */,
+			);
+			name = "ProyectoFinal5.iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		610C238E0000000000000000 /* ProyectoFinal5.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD8BAF60000000000000000 /* Build configuration list for PBXNativeTarget "ProyectoFinal5.iOS" */;
+			buildPhases = (
+				851C67F20000000000000000 /* Sources */,
+				28C6E61E0000000000000000 /* Frameworks */,
+				93609A6A0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProyectoFinal5.iOS";
+			productName = "ProyectoFinal5.iOS";
+			productReference = 213F06AA0000000000000000 /* ProyectoFinal5.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D6E5E290000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 32E162A40000000000000000 /* Build configuration list for PBXProject "ProyectoFinal5.iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E46A3600000000000000000;
+			productRefGroup = CC71644A0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				610C238E0000000000000000 /* ProyectoFinal5.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93609A6A0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D86D720000000000000000 /* Assets.xcassets in Resources */,
+				6A1503340000000000000000 /* LaunchScreen.storyboard in Resources */,
+				F49545F20000000000000000 /* Main.storyboard in Resources */,
+				BB847C120000000000000000 /* CeldaListaViajes.xib in Resources */,
+				7D00ADB70000000000000000 /* TabsViewController.xib in Resources */,
+				13B047F40000000000000000 /* MapaViewController.xib in Resources */,
+				C38A1D9F0000000000000000 /* Info.plist in Resources */,
+				EC41DA0E0000000000000000 /* Entitlements.plist in Resources */,
+				D88AA31B0000000000000000 /* iconoD.png in Resources */,
+				410F7C6E0000000000000000 /* iconoG.png in Resources */,
+				F0E952190000000000000000 /* iconoM.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851C67F20000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BF16AB0000000000000000 /* PrimaryButton.h in Sources */,
+				E74C97AC0000000000000000 /* PrimaryButton.m in Sources */,
+				1C33AB9A0000000000000000 /* GastosViewController.h in Sources */,
+				114DA2A40000000000000000 /* GastosViewController.m in Sources */,
+				A49F135F0000000000000000 /* DetalleViewController.h in Sources */,
+				A28A38660000000000000000 /* DetalleViewController.m in Sources */,
+				75A8C6050000000000000000 /* MapaViewController.h in Sources */,
+				2E53C9AD0000000000000000 /* MapaViewController.m in Sources */,
+				E6FECD550000000000000000 /* TabsViewController.h in Sources */,
+				FBFF52D10000000000000000 /* TabsViewController.m in Sources */,
+				1672DCC80000000000000000 /* CeldaListaViajes.h in Sources */,
+				30E666BF0000000000000000 /* CeldaListaViajes.m in Sources */,
+				87C8E4180000000000000000 /* LoginViewController.h in Sources */,
+				DEAB61710000000000000000 /* LoginViewController.m in Sources */,
+				BCAFF8060000000000000000 /* ViewController.h in Sources */,
+				9AB48E9B0000000000000000 /* ViewController.m in Sources */,
+				3C4A31CE0000000000000000 /* AppDelegate.h in Sources */,
+				FF0FB1FC0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2ED46CF0000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2C145C60000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77FE7BCB0000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jorgehdzg.TransportaAppAdmin-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		BF05ADCC0000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jorgehdzg.TransportaAppAdmin-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E162A40000000000000000 /* Build configuration list for PBXProject "ProyectoFinal5.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ED46CF0000000000000000 /* Debug */,
+				F2C145C60000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8BD8BAF60000000000000000 /* Build configuration list for PBXNativeTarget "ProyectoFinal5.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FE7BCB0000000000000000 /* Debug */,
+				BF05ADCC0000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D6E5E290000000000000000 /* Project object */;
+}

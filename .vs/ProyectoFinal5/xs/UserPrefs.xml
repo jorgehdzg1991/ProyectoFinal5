@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.Droid/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.Droid/ViajeFragment.cs">
     <Files>
-      <File FileName="ProyectoFinal5.Droid/ViajeActivity.cs" Line="23" Column="89" />
-      <File FileName="ProyectoFinal5.Droid/ViajeFragment.cs" Line="23" Column="10" />
-      <File FileName="ProyectoFinal5.Droid/Support/Colores.cs" Line="68" Column="49" />
-      <File FileName="ProyectoFinal5.Droid/MainActivity.cs" Line="22" Column="9" />
+      <File FileName="ProyectoFinal5.Droid/ViajeActivity.cs" Line="50" Column="71" />
+      <File FileName="ProyectoFinal5.Droid/MainActivity.cs" Line="145" Column="41" />
+      <File FileName="ProyectoFinal5.Droid/ViajeFragment.cs" Line="30" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

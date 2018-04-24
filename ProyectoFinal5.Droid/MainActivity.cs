@@ -140,7 +140,9 @@ namespace ProyectoFinal5.Droid
 
             _lsvViajes.ItemClick += (sender, e) => 
             {
+                var viaje = _viajes[e.Position];
                 var intent = new Intent(this, typeof(ViajeActivity));
+                intent.PutExtra("IdViaje", viaje.ViajeId);
                 StartActivity(intent);
             };
         }
