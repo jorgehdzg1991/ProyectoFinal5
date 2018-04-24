@@ -13,3 +13,18 @@
 /Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.AccesoDatos/obj/Debug/ProyectoFinal5.AccesoDatos.csproj.CoreCompileInputs.cache
 /Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.AccesoDatos/obj/Debug/ProyectoFinal5.AccesoDatos.dll
 /Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.AccesoDatos/obj/Debug/ProyectoFinal5.AccesoDatos.pdb
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/bin/Debug/ProyectoFinal5.AccesoDatos.dll.config
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/bin/Debug/ProyectoFinal5.AccesoDatos.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/bin/Debug/ProyectoFinal5.AccesoDatos.pdb
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/bin/Debug/Dapper.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/bin/Debug/MySql.Data.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/bin/Debug/ProyectoFinal5.Configuracion.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/bin/Debug/ProyectoFinal5.Modelos.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/bin/Debug/ProyectoFinal5.Configuracion.pdb
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/bin/Debug/ProyectoFinal5.Modelos.pdb
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/bin/Debug/Dapper.pdb
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/bin/Debug/Dapper.xml
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/obj/Debug/ProyectoFinal5.AccesoDatos.csprojResolveAssemblyReference.cache
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/obj/Debug/ProyectoFinal5.AccesoDatos.csproj.CoreCompileInputs.cache
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/obj/Debug/ProyectoFinal5.AccesoDatos.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.AccesoDatos/obj/Debug/ProyectoFinal5.AccesoDatos.pdb

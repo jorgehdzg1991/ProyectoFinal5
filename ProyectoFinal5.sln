@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFinal5.iOS", "Proye
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFinal5.Modelos", "ProyectoFinal5.Modelos\ProyectoFinal5.Modelos\ProyectoFinal5.Modelos.csproj", "{F164669A-D842-4852-9F17-EA0743D805F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFinal5.Droid", "ProyectoFinal5.Droid\ProyectoFinal5.Droid.csproj", "{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -121,6 +123,18 @@ Global
 		{F164669A-D842-4852-9F17-EA0743D805F7}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{F164669A-D842-4852-9F17-EA0743D805F7}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{F164669A-D842-4852-9F17-EA0743D805F7}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Debug|x86.Build.0 = Debug|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Release|x86.ActiveCfg = Release|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Release|x86.Build.0 = Release|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Release|iPhone.Build.0 = Release|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FB2DBCA9-4128-4EDD-B032-41B7B506B502} = {EBCD91B1-D4BC-401E-8899-5DFD3766E3CC}
@@ -130,5 +144,6 @@ Global
 		{086DC6CC-FEE1-46F5-87DB-7A9CBAD8B1E8} = {A5327107-0216-4CFC-9833-FA1212C73BE8}
 		{F7B516BF-4B39-4E08-AAB1-CD4320FA1B2D} = {A755895E-7531-4338-8796-4B032E9A6C29}
 		{F164669A-D842-4852-9F17-EA0743D805F7} = {4FC8F055-A1BF-4FE9-AEB4-0BA18D94F2DC}
+		{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524} = {A755895E-7531-4338-8796-4B032E9A6C29}
 	EndGlobalSection
 EndGlobal

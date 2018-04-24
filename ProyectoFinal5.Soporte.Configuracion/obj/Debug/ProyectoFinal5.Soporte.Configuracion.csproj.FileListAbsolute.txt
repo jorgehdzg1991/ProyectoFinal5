@@ -4,3 +4,9 @@
 /Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Soporte.Configuracion/obj/Debug/ProyectoFinal5.Configuracion.dll
 /Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Soporte.Configuracion/obj/Debug/ProyectoFinal5.Configuracion.pdb
 /Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Soporte.Configuracion/obj/Debug/ProyectoFinal5.Soporte.Configuracion.csprojResolveAssemblyReference.cache
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Soporte.Configuracion/bin/Debug/ProyectoFinal5.Configuracion.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Soporte.Configuracion/bin/Debug/ProyectoFinal5.Configuracion.pdb
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Soporte.Configuracion/obj/Debug/ProyectoFinal5.Soporte.Configuracion.csprojResolveAssemblyReference.cache
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Soporte.Configuracion/obj/Debug/ProyectoFinal5.Soporte.Configuracion.csproj.CoreCompileInputs.cache
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Soporte.Configuracion/obj/Debug/ProyectoFinal5.Configuracion.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Soporte.Configuracion/obj/Debug/ProyectoFinal5.Configuracion.pdb
