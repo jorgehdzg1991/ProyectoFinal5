@@ -1,7 +1,10 @@
-﻿<Properties StartupConfiguration="{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.Droid/ViajeFragment.cs">
+﻿<Properties StartupConfiguration="{F7B516BF-4B39-4E08-AAB1-CD4320FA1B2D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.Droid/MainActivity.cs">
     <Files>
-      <File FileName="ProyectoFinal5.Droid/ViajeFragment.cs" Line="185" Column="58" />
+      <File FileName="ProyectoFinal5.iOS/PrimaryButton.cs" Line="33" Column="1" />
+      <File FileName="ProyectoFinal5.iOS/Support/Colores.cs" Line="120" Column="1" />
+      <File FileName="ProyectoFinal5.iOS/PrimaryButton.designer.cs" Line="19" Column="3" />
+      <File FileName="ProyectoFinal5.Droid/MainActivity.cs" Line="27" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
@@ -11,5 +14,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.1.Capa.Presentacion.ProyectoFinal5.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
-  <MonoDevelop.Ide.ItemProperties.1.Capa.Presentacion.ProyectoFinal5.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2FBC3493-6EBD-4674-8D7C-6EB52297FFCD" />
+  <MonoDevelop.Ide.ItemProperties.1.Capa.Presentacion.ProyectoFinal5.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F2424DD4-A46A-40E9-946C-62F8622BDC62" />
 </Properties>

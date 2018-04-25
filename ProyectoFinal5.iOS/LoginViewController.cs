@@ -4,12 +4,14 @@ using ProyectoFinal5.iOS.DAL.Services;
 using ProyectoFinal5.Modelos.Peticiones.Usuarios;
 using UIKit;
 using ProyectoFinal5.iOS.Support;
+using Foundation;
 
 namespace ProyectoFinal5.iOS
 {
     public partial class LoginViewController : UIViewController
     {
         UIAlertController _alerta;
+        Utilidades objUtilidades;
 
         public LoginViewController(IntPtr handle) : base(handle)
         {
@@ -22,6 +24,11 @@ namespace ProyectoFinal5.iOS
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+
+            objUtilidades = new Utilidades(this);
+
+            objUtilidades.ocultarTeclado(TxtCorreo, ParametrosGlobales.TipoAccion.Control.ToString());
+            objUtilidades.ocultarTeclado(TxtContrasena, ParametrosGlobales.TipoAccion.Control.ToString());
 
             BtnIniciarSesion.TouchUpInside += async delegate
             {
@@ -42,7 +49,7 @@ namespace ProyectoFinal5.iOS
 
                     var usuario = respuesta.Datos;
 
-                    GuardarCorreoSesion(usuario.Correo);
+                //    GuardarCorreoSesion(usuario.Correo);
 
                     NavegarMainViewController();
                 }
@@ -80,6 +87,15 @@ namespace ProyectoFinal5.iOS
 
             PresentViewControllerAsync(controlador, true);
         }
-    }
+
+		public override void TouchesBegan(NSSet touches, UIEvent evt)
+		{
+            base.TouchesBegan(touches, evt);
+
+            objUtilidades.ocultarTeclado(TxtCorreo, ParametrosGlobales.TipoAccion.Control.ToString());
+            objUtilidades.ocultarTeclado(TxtContrasena, ParametrosGlobales.TipoAccion.Control.ToString());
+		}
+
+	}
 }
 

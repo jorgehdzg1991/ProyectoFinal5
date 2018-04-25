@@ -1,7 +1,7 @@
 # Version: 11.9.1.24 (xcode9.3: f62de472)
-# [first argument, ignore] # --cache=/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.iOS/obj/iPhoneSimulator/Debug/mtouch-cache
+# [first argument, ignore] # --cache=/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.iOS/obj/iPhoneSimulator/Debug/mtouch-cache
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mtouch/mtouch.exe \
-	'--sim=/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.iOS/bin/iPhoneSimulator/Debug/TransportaAppAdmin_iOS.app' \
+	--sim=/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.iOS/bin/iPhoneSimulator/Debug/TransportaAppAdmin_iOS.app \
 	--executable=TransportaAppAdmin_iOS \
 	--debug \
 	--nolink \
@@ -11,12 +11,12 @@
 	--aot-options=-O=-float32 \
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
-	'--symbollist=/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list' \
+	--symbollist=/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
-	'-r=/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll' \
-	'-r=/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Modelos/ProyectoFinal5.Modelos/bin/Debug/ProyectoFinal5.Modelos.dll' \
+	-r=/Users/jhernandez/Projects/ProyectoFinal5/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll \
+	-r=/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Modelos/ProyectoFinal5.Modelos/bin/Debug/ProyectoFinal5.Modelos.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.IO.Compression.dll \
@@ -160,7 +160,7 @@
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
-	'-r=/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll' \
-	'-r=/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Modelos/ProyectoFinal5.Modelos/bin/Debug/ProyectoFinal5.Modelos.dll' \
+	-r=/Users/jhernandez/Projects/ProyectoFinal5/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll \
+	-r=/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Modelos/ProyectoFinal5.Modelos/bin/Debug/ProyectoFinal5.Modelos.dll \
 	'--target-framework=Xamarin.iOS,v1.0' \
-	'--root-assembly=/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.iOS/bin/iPhoneSimulator/Debug/TransportaAppAdmin_iOS.exe' \
+	--root-assembly=/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.iOS/bin/iPhoneSimulator/Debug/TransportaAppAdmin_iOS.exe \

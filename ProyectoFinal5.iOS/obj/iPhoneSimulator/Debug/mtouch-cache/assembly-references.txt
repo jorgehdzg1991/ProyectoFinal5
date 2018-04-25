@@ -1,18 +1,18 @@
-/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.iOS/bin/iPhoneSimulator/Debug/TransportaAppAdmin_iOS.exe
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.iOS/bin/iPhoneSimulator/Debug/TransportaAppAdmin_iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/System.Core.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/System.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Mono.Security.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/System.Xml.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
-/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Modelos/ProyectoFinal5.Modelos/bin/Debug/ProyectoFinal5.Modelos.dll
+/Users/jhernandez/Projects/ProyectoFinal5/ProyectoFinal5.Modelos/ProyectoFinal5.Modelos/bin/Debug/ProyectoFinal5.Modelos.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/System.ComponentModel.Composition.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Debug.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Net.Primitives.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Collections.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/System.Net.Http.dll
-/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll
+/Users/jhernandez/Projects/ProyectoFinal5/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.IO.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Runtime.Numerics.dll

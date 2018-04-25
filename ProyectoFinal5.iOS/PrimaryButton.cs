@@ -8,10 +8,10 @@ using UIKit;
 
 namespace ProyectoFinal5.iOS
 {
-	public partial class PrimaryButton : UIButton
-	{
-		public PrimaryButton (IntPtr handle) : base (handle)
-		{
+    public partial class PrimaryButton : UIButton
+    {
+        public PrimaryButton(IntPtr handle) : base(handle)
+        {
             Layer.CornerRadius = 10f;
             Layer.BackgroundColor = Colores.Primary.CGColor;
             Layer.BorderColor = Colores.DarkPrimary.CGColor;
@@ -27,6 +27,6 @@ namespace ProyectoFinal5.iOS
             Layer.ShadowOffset = new System.Drawing.SizeF(0f, 3f);
             Layer.ShadowRadius = 10f;
             Layer.ShadowOpacity = 0.4f;
-		}
-	}
+        }
+    }
 }

@@ -6,6 +6,7 @@ using ProyectoFinal5.iOS.DAL.Services;
 using ProyectoFinal5.iOS.Models;
 using ProyectoFinal5.iOS.Support;
 using UIKit;
+using CoreGraphics;
 
 namespace ProyectoFinal5.iOS
 {
@@ -15,6 +16,9 @@ namespace ProyectoFinal5.iOS
         public static List<Viaje> Viajes;
         public static List<Viaje> ViajesFiltrados;
         List<Usuario> _operadores;
+        UIPickerView pickerView;
+
+        private string seleccionado;
 
         public bool EsLogin { get; set; }
 
@@ -26,9 +30,13 @@ namespace ProyectoFinal5.iOS
         {
             base.ViewDidLoad();
 
+            txtOperador.Placeholder = "Selecciona un Operardor";
+
             TblViajes.RegisterNibForCellReuse(CeldaListaViajes.Nib, CeldaListaViajes.Key);
 
-            BtnFiltrar.TouchUpInside += delegate
+            //this.txtOperador.InputView = pickerView;
+
+            /*BtnFiltrar.TouchUpInside += delegate
             {
                 var posicion = ((PckOperadoresModel)PckOperadores.Model).SelectedIndex;
 
@@ -41,6 +49,9 @@ namespace ProyectoFinal5.iOS
                     FiltrarViajesOperador(_operadores[posicion].UsuarioId);
                 }
             };
+            */
+
+
         }
 
         public override void ViewDidAppear(bool animated)
@@ -61,6 +72,9 @@ namespace ProyectoFinal5.iOS
 
                 ObtenerOperadores();
                 ObtenerViajes();
+
+                //txtOperador.AddObserver
+
             }
             catch (Exception ex)
             {
@@ -110,8 +124,15 @@ namespace ProyectoFinal5.iOS
             {
                 _operadores = respuesta.Datos;
 
-                var modeloPickerOperadores = new PckOperadoresModel(_operadores);
-                PckOperadores.Model = modeloPickerOperadores;
+                SetupPicker();
+
+                /*
+                pickerView = new UIPickerView();
+                var modeloPickerOperadores = new PckOperadoresModel(txtOperador, _operadores);
+                //PckOperadores.Model = modeloPickerOperadores;
+                pickerView.Model = modeloPickerOperadores;
+                */
+
             }
             else
             {
@@ -152,7 +173,74 @@ namespace ProyectoFinal5.iOS
                 MostrarViajesTabla();
             }
         }
-    }
 
 
-}
+        private void SetupPicker()
+        {
+            var model = new PckOperadoresModel(_operadores);
+
+            model.ValueChanged += (sender, e) => {
+                
+                this.seleccionado = model.SelectedValue;
+            };
+
+            UIPickerView picker = new UIPickerView();
+            picker.ShowSelectionIndicator = true;
+            picker.Model = model;
+
+
+            UIToolbar toolbar = new UIToolbar();
+            toolbar.BarStyle = UIBarStyle.Default;
+            toolbar.Translucent = true;
+            var labelTitulo = new UILabel(new CGRect(x: 0, y: 50, width: 150, height: 20))
+            {
+                BackgroundColor = UIColor.Clear,
+                TextColor = UIColor.Gray.ColorWithAlpha(0.5f),
+                TextAlignment = UITextAlignment.Center,
+                Text = " Lista Operadores "
+            };
+
+            var tituloCajaTexto = new UIBarButtonItem(labelTitulo);
+            var cancelarBoton = new UIBarButtonItem("Cancelar", UIBarButtonItemStyle.Done, (s, e) => { this.txtOperador.ResignFirstResponder(); });
+            var espacioEntreBoton = new UIBarButtonItem(UIBarButtonSystemItem.FlexibleSpace, null, null);
+
+            UIBarButtonItem hechoBoton = new UIBarButtonItem("Hecho", UIBarButtonItemStyle.Done,
+            (s, e) => {
+                this.txtOperador.Text = seleccionado;
+                this.txtOperador.ResignFirstResponder();
+            });
+
+            toolbar.SetItems(new UIBarButtonItem[] { cancelarBoton, espacioEntreBoton, tituloCajaTexto, espacioEntreBoton, hechoBoton }, true);
+
+            toolbar.TranslatesAutoresizingMaskIntoConstraints = false;
+            picker.TranslatesAutoresizingMaskIntoConstraints = false;
+
+            toolbar.SizeToFit();
+
+            this.txtOperador.InputView = picker;
+
+            this.txtOperador.InputAccessoryView = toolbar;
+
+
+            hechoBoton.Clicked += delegate
+            {
+                var modelo = new PckOperadoresModel(_operadores);
+                var posicion = modelo.SelectedIndex;
+
+                //var posicion = ((PckOperadoresModel)PckOperadores.Model).SelectedIndex;
+
+                if (posicion == -1)
+                {
+                    FiltrarViajesOperador(posicion);
+                }
+                else
+                {
+                    FiltrarViajesOperador(_operadores[posicion].UsuarioId);
+                }
+            };
+
+        }
+
+    }//Fin class
+
+}//Fin namespace

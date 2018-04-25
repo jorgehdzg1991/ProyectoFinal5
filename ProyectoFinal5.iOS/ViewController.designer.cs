@@ -20,9 +20,22 @@ namespace ProyectoFinal5.iOS
 
 		[Outlet]
 		UIKit.UITableView TblViajes { get; set; }
+
+		[Outlet]
+		UIKit.UITextField txtOperador { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (txtOperador != null) {
+				txtOperador.Dispose ();
+				txtOperador = null;
+			}
+
+			if (BtnFiltrar != null) {
+				BtnFiltrar.Dispose ();
+				BtnFiltrar = null;
+			}
+
 			if (PckOperadores != null) {
 				PckOperadores.Dispose ();
 				PckOperadores = null;
@@ -31,11 +44,6 @@ namespace ProyectoFinal5.iOS
 			if (TblViajes != null) {
 				TblViajes.Dispose ();
 				TblViajes = null;
-			}
-
-			if (BtnFiltrar != null) {
-				BtnFiltrar.Dispose ();
-				BtnFiltrar = null;
 			}
 		}
 	}

@@ -15,7 +15,7 @@ namespace ProyectoFinal5.Droid
     public class ViajeFragment : Fragment
     {
         int _position;
-        Viaje _viaje;
+        readonly Viaje _viaje;
 
         // Controles para la vista de detalle de viaje
         TextView _lblTituloDetalle;
