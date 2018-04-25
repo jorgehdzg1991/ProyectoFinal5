@@ -106,7 +106,15 @@ namespace ProyectoFinal5.Droid
 
 			public override Android.Support.V4.App.Fragment GetItem(int position)
             {
-                return ViajeFragment.NewInstance(position, _viaje);
+                switch (position)
+                {
+                    case 0:
+                        return DetalleFragment.NewInstance(_viaje.Detalle);
+                    case 1:
+                        return RutaFragment.NewInstance(_viaje.Posiciones);
+                    default:
+                        return GastosFragment.NewInstance(_viaje.ViajeId, _viaje.Gastos);
+                }
             }
         }
     }

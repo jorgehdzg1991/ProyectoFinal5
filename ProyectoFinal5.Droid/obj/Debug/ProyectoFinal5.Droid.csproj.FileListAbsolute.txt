@@ -13,9 +13,14 @@
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/SQLitePCLRaw.lib.e_sqlite3.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/SQLitePCLRaw.provider.e_sqlite3.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Xamarin.Android.Support.Design.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Xamarin.Android.Support.v4.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Xamarin.GooglePlayServices.Base.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Xamarin.GooglePlayServices.Basement.dll
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Xamarin.GooglePlayServices.Maps.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/ProyectoFinal5.Modelos.pdb
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/SQLite-net.pdb
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/SQLite-net.xml
@@ -41,8 +46,6 @@
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/res/layout/frggastosviaje.xml
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/R.cs.flag
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/uploadflags.txt
-/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Xamarin.Android.Support.Design.dll
-/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Mono.Android.pdb
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Mono.Android.Export.pdb
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/linksrc/ProyectoFinal5.Droid.pdb

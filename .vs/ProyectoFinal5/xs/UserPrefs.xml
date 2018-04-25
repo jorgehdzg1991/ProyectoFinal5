@@ -1,10 +1,10 @@
-﻿<Properties StartupConfiguration="{F7B516BF-4B39-4E08-AAB1-CD4320FA1B2D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.iOS/MainViewController.cs">
+﻿<Properties StartupConfiguration="{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.Droid/GastosFragment.cs">
     <Files>
-      <File FileName="ProyectoFinal5.iOS/LoginViewController.cs" Line="1" Column="1" />
-      <File FileName="ProyectoFinal5.iOS/ViewController.cs" Line="94" Column="13" />
-      <File FileName="ProyectoFinal5.iOS/Models/TblViajesSource.cs" Line="45" Column="1" />
-      <File FileName="ProyectoFinal5.iOS/MainViewController.cs" Line="8" Column="29" />
+      <File FileName="ProyectoFinal5.Droid/RutaFragment.cs" Line="93" Column="35" />
+      <File FileName="ProyectoFinal5.Droid/ViajeActivity.cs" Line="114" Column="76" />
+      <File FileName="ProyectoFinal5.Droid/DetalleFragment.cs" Line="31" Column="9" />
+      <File FileName="ProyectoFinal5.Droid/GastosFragment.cs" Line="40" Column="64" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
