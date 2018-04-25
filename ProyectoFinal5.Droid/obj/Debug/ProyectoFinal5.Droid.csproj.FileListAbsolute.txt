@@ -28,7 +28,6 @@
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Refractored.PagerSlidingTabStrip.pdb
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Refractored.PagerSlidingTabStrip.dll.mdb
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Refractored.PagerSlidingTabStrip.xml
-/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/ProyectoFinal5.Droid.csprojResolveAssemblyReference.cache
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/ProyectoFinal5.Droid.csproj.CoreCompileInputs.cache
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/ProyectoFinal5.Droid.dll
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/ProyectoFinal5.Droid.pdb
@@ -46,6 +45,7 @@
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/res/layout/frggastosviaje.xml
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/R.cs.flag
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/uploadflags.txt
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/ProyectoFinal5.Droid.csprojResolveAssemblyReference.cache
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Mono.Android.pdb
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/bin/Debug/Mono.Android.Export.pdb
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.Droid/obj/Debug/linksrc/ProyectoFinal5.Droid.pdb

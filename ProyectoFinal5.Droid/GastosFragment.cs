@@ -65,6 +65,7 @@ namespace ProyectoFinal5.Droid
             _txtGastoOtros = gastosView.FindViewById<EditText>(Resource.Id.TxtGastoOtros);
             _btnGuardarGastos = gastosView.FindViewById<Button>(Resource.Id.BtnGuardarGastos);
 
+            _lblTituloGastos.Visibility = ViewStates.Gone;
             _lblTituloGastos.SetTextColor(Colores.Accent);
             _lblGastoGasolina.SetTextColor(Colores.Primary);
             _lblGastoCasetas.SetTextColor(Colores.Primary);

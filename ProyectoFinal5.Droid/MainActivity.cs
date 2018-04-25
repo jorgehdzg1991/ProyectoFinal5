@@ -16,11 +16,15 @@ namespace ProyectoFinal5.Droid
     [Activity(Label = "Transporta App: Admin", MainLauncher = true, Icon = "@mipmap/icon", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     public class MainActivity : AppCompatActivity
     {
+        TextView _lblTituloMain;
+        TextView _lblFiltrarViajes;
+        TextView _lblViajesHint;
         Spinner _spnOperadores;
         ListView _lsvViajes;
 
         List<Usuario> _operadores;
         List<Viaje> _viajes;
+        List<Viaje> _filtrados;
 
         protected override async void OnCreate(Bundle savedInstanceState)
         {
@@ -38,8 +42,15 @@ namespace ProyectoFinal5.Droid
 
             //SupportActionBar.SetBackgroundDrawable(new ColorDrawable(Colores.Accent));
 
+            _lblTituloMain = FindViewById<TextView>(Resource.Id.LblTituloMain);
+            _lblFiltrarViajes = FindViewById<TextView>(Resource.Id.LblFiltrarViajes);
+            _lblViajesHint = FindViewById<TextView>(Resource.Id.LblViajesHint);
             _spnOperadores = FindViewById<Spinner>(Resource.Id.SpnOperadores);
             _lsvViajes = FindViewById<ListView>(Resource.Id.LsvViajes);
+
+            _lblTituloMain.SetTextColor(Colores.Accent);
+            _lblFiltrarViajes.SetTextColor(Colores.Primary);
+            _lblViajesHint.SetTextColor(Colores.SecondaryText);
 
             await ObtenerViajes();
             await CargarOperadores();
@@ -115,22 +126,22 @@ namespace ProyectoFinal5.Droid
 
         void ActualizarListaViajes(int posicion)
         {
-            var filtrados = new List<Viaje>();
+            _filtrados = new List<Viaje>();
 
             if (posicion == 0)
             {
-                filtrados = _viajes;
+                _filtrados = _viajes;
             }
             else
             {
                 var operadorSeleccionado = _operadores[posicion - 1];
 
-                filtrados = _viajes.Where(
+                _filtrados = _viajes.Where(
                     v => v.OperadorId == operadorSeleccionado.UsuarioId).ToList();
             }
 
-            var items = filtrados.Select(
-                v => $"Origen: {v.Origen}; Destino: {v.Destino}").ToArray();
+            var items = _filtrados.Select(
+                v => $"{v.Fecha.ToShortDateString()} {v.Origen} - {v.Destino}").ToArray();
 
             var adaptador = new ArrayAdapter<string>(
                 this, Android.Resource.Layout.SimpleListItem1, items);
@@ -139,7 +150,7 @@ namespace ProyectoFinal5.Droid
 
             _lsvViajes.ItemClick += (sender, e) => 
             {
-                var viaje = _viajes[e.Position];
+                var viaje = _filtrados[e.Position];
                 var intent = new Intent(this, typeof(ViajeActivity));
                 intent.PutExtra("IdViaje", viaje.ViajeId);
                 StartActivity(intent);

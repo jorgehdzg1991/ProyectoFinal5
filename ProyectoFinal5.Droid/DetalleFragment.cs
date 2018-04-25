@@ -57,6 +57,7 @@ namespace ProyectoFinal5.Droid
             _txtKilometrajeFinal = detalleView.FindViewById<EditText>(Resource.Id.TxtKilometrajeFinal);
             _txtObservaciones = detalleView.FindViewById<EditText>(Resource.Id.TxtObservaciones);
 
+            _lblTituloDetalle.Visibility = ViewStates.Gone;
             _lblTituloDetalle.SetTextColor(Colores.Accent);
             _lblFechaInicio.SetTextColor(Colores.Primary);
             _lblFechaFin.SetTextColor(Colores.Primary);
@@ -64,13 +65,29 @@ namespace ProyectoFinal5.Droid
             _lblKilometrajeFinal.SetTextColor(Colores.Primary);
             _lblObservaciones.SetTextColor(Colores.Primary);
 
-            _txtFechaInicio.Text = _detalle.FechaInicio.ToString();
-            _txtFechaFin.Text = _detalle.FechaFin.ToString();
-            _txtKilometrajeInicial.Text = _detalle.KilometrajeInicial.ToString();
-            _txtKilometrajeFinal.Text = _detalle.KilometrajeFinal.ToString();
-            _txtObservaciones.Text = _detalle.Observaciones;
+            CargarDetalles();
 
             return detalleView;
+        }
+
+        void CargarDetalles()
+        {
+            if (_detalle != null)
+            {
+                _txtFechaInicio.Text = _detalle.FechaInicio.ToString();
+                _txtFechaFin.Text = _detalle.FechaFin.ToString();
+                _txtKilometrajeInicial.Text = _detalle.KilometrajeInicial.ToString();
+                _txtKilometrajeFinal.Text = _detalle.KilometrajeFinal.ToString();
+
+                if (_detalle.Observaciones != null)
+                {
+                    _txtObservaciones.Text = _detalle.Observaciones;
+                }
+            }
+            else
+            {
+                AlertMessage.Show(Activity, "Aún no se ha capturado información de este viaje", ToastLength.Long);
+            }
         }
     }
 }

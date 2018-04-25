@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{F90FA4BA-54B5-4EE1-9A82-B9E6E6E02524}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.Droid/GastosFragment.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.Droid/ViajeActivity.cs">
     <Files>
-      <File FileName="ProyectoFinal5.Droid/RutaFragment.cs" Line="93" Column="35" />
-      <File FileName="ProyectoFinal5.Droid/ViajeActivity.cs" Line="114" Column="76" />
-      <File FileName="ProyectoFinal5.Droid/DetalleFragment.cs" Line="31" Column="9" />
-      <File FileName="ProyectoFinal5.Droid/GastosFragment.cs" Line="40" Column="64" />
+      <File FileName="ProyectoFinal5.Droid/DetalleFragment.cs" Line="60" Column="30" />
+      <File FileName="ProyectoFinal5.Droid/GastosFragment.cs" Line="72" Column="62" />
+      <File FileName="ProyectoFinal5.Droid/RutaFragment.cs" Line="106" Column="98" />
+      <File FileName="ProyectoFinal5.Droid/ViajeActivity.cs" Line="35" Column="75" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

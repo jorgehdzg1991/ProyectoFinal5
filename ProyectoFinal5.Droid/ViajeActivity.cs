@@ -19,32 +19,49 @@ namespace ProyectoFinal5.Droid
         ViajeAdapter _adapter;
         PagerSlidingTabStrip _tabs;
         ViewPager _pager;
+        Button _btnRegresarInicio;
 
         protected override async void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Viaje);
 
+            _btnRegresarInicio = FindViewById<Button>(Resource.Id.BtnRegresarInicio);
+            _pager = FindViewById<ViewPager>(Resource.Id.pager);
+            _tabs = FindViewById<PagerSlidingTabStrip>(Resource.Id.tabs);
+
+            _tabs.SetBackgroundColor(Colores.DarkPrimary);
+            _tabs.SetTabTextColor(Colores.Icons);
+            _btnRegresarInicio.Visibility = Android.Views.ViewStates.Gone;
+            _btnRegresarInicio.SetBackgroundColor(Colores.LightPrimary);
+            _btnRegresarInicio.SetTextColor(Colores.PrimaryText);
+
             var idViaje = Intent.GetIntExtra("IdViaje", -1);
 
             if (idViaje == -1)
             {
                 AlertMessage.Show(this, "Ha ocurrido un error: No se seleccionó un viaje", ToastLength.Long);
-                var intent = new Intent(this, typeof(MainActivity));
-                StartActivity(intent);
+                RegresarInicio();
                 return;
             }
 
             await ObtenerDetalleViajeSeleccionado(idViaje);
 
             _adapter = new ViajeAdapter(SupportFragmentManager, _viaje);
-            _pager = FindViewById<ViewPager>(Resource.Id.pager);
-            _tabs = FindViewById<PagerSlidingTabStrip>(Resource.Id.tabs);
 
             _pager.Adapter = _adapter;
             _tabs.SetViewPager(_pager);
-            _tabs.SetBackgroundColor(Colores.DarkPrimary);
-            _tabs.SetTabTextColor(Colores.Icons);
+
+            _btnRegresarInicio.Click += (sender, e) =>
+            {
+                RegresarInicio();
+            };
+        }
+
+        void RegresarInicio()
+        {
+            var intent = new Intent(this, typeof(MainActivity));
+            StartActivity(intent);
         }
 
         async Task<bool> ObtenerDetalleViajeSeleccionado(int idViaje)

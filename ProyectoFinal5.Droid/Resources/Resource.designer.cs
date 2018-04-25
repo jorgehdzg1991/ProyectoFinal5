@@ -3428,11 +3428,17 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a0097
 			public const int BtnGuardarGastos = 2131361943;
 			
+			// aapt resource value: 0x7f0a00af
+			public const int BtnRegresarInicio = 2131361967;
+			
 			// aapt resource value: 0x7f0a0083
 			public const int LblFechaFin = 2131361923;
 			
 			// aapt resource value: 0x7f0a0081
 			public const int LblFechaInicio = 2131361921;
+			
+			// aapt resource value: 0x7f0a009b
+			public const int LblFiltrarViajes = 2131361947;
 			
 			// aapt resource value: 0x7f0a0091
 			public const int LblGastoAlimentos = 2131361937;
@@ -3464,8 +3470,14 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a008b
 			public const int LblTituloGastos = 2131361931;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int LsvViajes = 2131361948;
+			// aapt resource value: 0x7f0a009a
+			public const int LblTituloMain = 2131361946;
+			
+			// aapt resource value: 0x7f0a009d
+			public const int LblViajesHint = 2131361949;
+			
+			// aapt resource value: 0x7f0a009e
+			public const int LsvViajes = 2131361950;
 			
 			// aapt resource value: 0x7f0a0099
 			public const int MainToolbar = 2131361945;
@@ -3479,8 +3491,8 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a008c
 			public const int ScvGastos = 2131361932;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int SpnOperadores = 2131361947;
+			// aapt resource value: 0x7f0a009c
+			public const int SpnOperadores = 2131361948;
 			
 			// aapt resource value: 0x7f0a0084
 			public const int TxtFechaFin = 2131361924;
@@ -3512,8 +3524,8 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a008a
 			public const int TxtObservaciones = 2131361930;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int action0 = 2131361949;
+			// aapt resource value: 0x7f0a009f
+			public const int action0 = 2131361951;
 			
 			// aapt resource value: 0x7f0a0067
 			public const int action_bar = 2131361895;
@@ -3539,8 +3551,8 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a0068
 			public const int action_context_bar = 2131361896;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int action_divider = 2131361953;
+			// aapt resource value: 0x7f0a00a3
+			public const int action_divider = 2131361955;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -3587,8 +3599,8 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a0051
 			public const int buttonPanel = 2131361873;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int cancel_action = 2131361950;
+			// aapt resource value: 0x7f0a00a0
+			public const int cancel_action = 2131361952;
 			
 			// aapt resource value: 0x7f0a0036
 			public const int center = 2131361846;
@@ -3602,8 +3614,8 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a005f
 			public const int checkbox = 2131361887;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int chronometer = 2131361956;
+			// aapt resource value: 0x7f0a00a6
+			public const int chronometer = 2131361958;
 			
 			// aapt resource value: 0x7f0a003e
 			public const int clip_horizontal = 2131361854;
@@ -3656,8 +3668,8 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a0027
 			public const int end = 2131361831;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int end_padder = 2131361961;
+			// aapt resource value: 0x7f0a00ab
+			public const int end_padder = 2131361963;
 			
 			// aapt resource value: 0x7f0a002e
 			public const int enterAlways = 2131361838;
@@ -3707,8 +3719,8 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a004c
 			public const int image = 2131361868;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int info = 2131361960;
+			// aapt resource value: 0x7f0a00aa
+			public const int info = 2131361962;
 			
 			// aapt resource value: 0x7f0a0046
 			public const int italic = 2131361862;
@@ -3722,11 +3734,11 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a0017
 			public const int light = 2131361815;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int line1 = 2131361954;
+			// aapt resource value: 0x7f0a00a4
+			public const int line1 = 2131361956;
 			
-			// aapt resource value: 0x7f0a00a6
-			public const int line3 = 2131361958;
+			// aapt resource value: 0x7f0a00a8
+			public const int line3 = 2131361960;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int listMode = 2131361816;
@@ -3734,8 +3746,8 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a004e
 			public const int list_item = 2131361870;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int media_actions = 2131361952;
+			// aapt resource value: 0x7f0a00a2
+			public const int media_actions = 2131361954;
 			
 			// aapt resource value: 0x7f0a0028
 			public const int middle = 2131361832;
@@ -3758,8 +3770,8 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a000d
 			public const int normal = 2131361805;
 			
-			// aapt resource value: 0x7f0a00ac
-			public const int pager = 2131361964;
+			// aapt resource value: 0x7f0a00ae
+			public const int pager = 2131361966;
 			
 			// aapt resource value: 0x7f0a0033
 			public const int parallax = 2131361843;
@@ -3776,8 +3788,8 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a0007
 			public const int progress_horizontal = 2131361799;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int psts_tab_title = 2131361962;
+			// aapt resource value: 0x7f0a00ac
+			public const int psts_tab_title = 2131361964;
 			
 			// aapt resource value: 0x7f0a0061
 			public const int radio = 2131361889;
@@ -3881,8 +3893,8 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a003c
 			public const int start = 2131361852;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int status_bar_latest_event_content = 2131361951;
+			// aapt resource value: 0x7f0a00a1
+			public const int status_bar_latest_event_content = 2131361953;
 			
 			// aapt resource value: 0x7f0a0072
 			public const int submit_area = 2131361906;
@@ -3890,26 +3902,23 @@ namespace ProyectoFinal5.Droid
 			// aapt resource value: 0x7f0a0019
 			public const int tabMode = 2131361817;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int tabs = 2131361963;
+			// aapt resource value: 0x7f0a00ad
+			public const int tabs = 2131361965;
 			
 			// aapt resource value: 0x7f0a000f
 			public const int terrain = 2131361807;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int text = 2131361959;
+			// aapt resource value: 0x7f0a00a9
+			public const int text = 2131361961;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int text2 = 2131361957;
+			// aapt resource value: 0x7f0a00a7
+			public const int text2 = 2131361959;
 			
 			// aapt resource value: 0x7f0a005a
 			public const int textSpacerNoButtons = 2131361882;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int textView1 = 2131361946;
-			
-			// aapt resource value: 0x7f0a00a3
-			public const int time = 2131361955;
+			// aapt resource value: 0x7f0a00a5
+			public const int time = 2131361957;
 			
 			// aapt resource value: 0x7f0a0050
 			public const int title = 2131361872;
