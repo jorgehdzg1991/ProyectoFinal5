@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{F7B516BF-4B39-4E08-AAB1-CD4320FA1B2D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.Droid/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinal5.iOS/MainViewController.cs">
     <Files>
-      <File FileName="ProyectoFinal5.iOS/PrimaryButton.cs" Line="33" Column="1" />
-      <File FileName="ProyectoFinal5.iOS/Support/Colores.cs" Line="120" Column="1" />
-      <File FileName="ProyectoFinal5.iOS/PrimaryButton.designer.cs" Line="19" Column="3" />
-      <File FileName="ProyectoFinal5.Droid/MainActivity.cs" Line="27" Column="47" />
+      <File FileName="ProyectoFinal5.iOS/LoginViewController.cs" Line="1" Column="1" />
+      <File FileName="ProyectoFinal5.iOS/ViewController.cs" Line="94" Column="13" />
+      <File FileName="ProyectoFinal5.iOS/Models/TblViajesSource.cs" Line="45" Column="1" />
+      <File FileName="ProyectoFinal5.iOS/MainViewController.cs" Line="8" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

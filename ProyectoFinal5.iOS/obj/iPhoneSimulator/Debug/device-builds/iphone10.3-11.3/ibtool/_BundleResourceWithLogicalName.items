@@ -63,13 +63,13 @@
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/ibtool-link/Main.storyboardc/UIViewController-KsF-5h-TQU.nib">
-      <LogicalName>Main.storyboardc/UIViewController-KsF-5h-TQU.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/ibtool-link/Main.storyboardc/UINavigationController-7FN-bY-bn6.nib">
+      <LogicalName>Main.storyboardc/UINavigationController-7FN-bY-bn6.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/ibtool-link/Main.storyboardc/UIViewController-sn6-10-97K.nib">
-      <LogicalName>Main.storyboardc/UIViewController-sn6-10-97K.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/ibtool-link/Main.storyboardc/UIViewController-KsF-5h-TQU.nib">
+      <LogicalName>Main.storyboardc/UIViewController-KsF-5h-TQU.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>

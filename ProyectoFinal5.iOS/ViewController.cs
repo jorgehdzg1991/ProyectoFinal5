@@ -16,9 +16,8 @@ namespace ProyectoFinal5.iOS
         public static List<Viaje> Viajes;
         public static List<Viaje> ViajesFiltrados;
         List<Usuario> _operadores;
-        UIPickerView pickerView;
 
-        private string seleccionado;
+        string _seleccionado;
 
         public bool EsLogin { get; set; }
 
@@ -34,7 +33,7 @@ namespace ProyectoFinal5.iOS
 
             TblViajes.RegisterNibForCellReuse(CeldaListaViajes.Nib, CeldaListaViajes.Key);
 
-            //this.txtOperador.InputView = pickerView;
+            //txtOperador.InputView = pickerView;
 
             /*BtnFiltrar.TouchUpInside += delegate
             {
@@ -93,8 +92,7 @@ namespace ProyectoFinal5.iOS
         void NavegarLogin()
         {
             var controlador = Storyboard.InstantiateViewController("LoginViewController") as LoginViewController;
-
-            PresentViewControllerAsync(controlador, true);
+            NavigationController.PushViewController(controlador, true);
         }
 
         async void ObtenerViajes()
@@ -132,7 +130,6 @@ namespace ProyectoFinal5.iOS
                 //PckOperadores.Model = modeloPickerOperadores;
                 pickerView.Model = modeloPickerOperadores;
                 */
-
             }
             else
             {
@@ -150,11 +147,11 @@ namespace ProyectoFinal5.iOS
             TblViajes.ReloadData();
         }
 
-        void FiltrarViajesOperador(int idOperador)
+        void FiltrarViajesOperador(int posicion)
         {
             ViajesFiltrados = new List<Viaje>();
 
-            if (idOperador == -1)
+            if (posicion == -1)
             {
                 ViajesFiltrados.AddRange(Viajes);
 
@@ -162,15 +159,24 @@ namespace ProyectoFinal5.iOS
             }
             else
             {
-                foreach (var viaje in Viajes)
+                if (_operadores[posicion] != null)
                 {
-                    if (viaje.OperadorId == idOperador)
-                    {
-                        ViajesFiltrados.Add(viaje);
-                    }
-                }
+                    var idOperador = _operadores[posicion].UsuarioId;
 
-                MostrarViajesTabla();
+                    foreach (var viaje in Viajes)
+                    {
+                        if (viaje.OperadorId == idOperador)
+                        {
+                            ViajesFiltrados.Add(viaje);
+                        }
+                    }
+
+                    MostrarViajesTabla();
+                }
+                else
+                {
+                    MostrarMensaje("Error", "Operador desconocido");
+                }
             }
         }
 
@@ -179,9 +185,9 @@ namespace ProyectoFinal5.iOS
         {
             var model = new PckOperadoresModel(_operadores);
 
-            model.ValueChanged += (sender, e) => {
-                
-                this.seleccionado = model.SelectedValue;
+            model.ValueChanged += (sender, e) =>
+            {
+                _seleccionado = model.SelectedValue;
             };
 
             UIPickerView picker = new UIPickerView();
@@ -201,13 +207,13 @@ namespace ProyectoFinal5.iOS
             };
 
             var tituloCajaTexto = new UIBarButtonItem(labelTitulo);
-            var cancelarBoton = new UIBarButtonItem("Cancelar", UIBarButtonItemStyle.Done, (s, e) => { this.txtOperador.ResignFirstResponder(); });
+            var cancelarBoton = new UIBarButtonItem("Cancelar", UIBarButtonItemStyle.Done, (s, e) => { txtOperador.ResignFirstResponder(); });
             var espacioEntreBoton = new UIBarButtonItem(UIBarButtonSystemItem.FlexibleSpace, null, null);
 
             UIBarButtonItem hechoBoton = new UIBarButtonItem("Hecho", UIBarButtonItemStyle.Done,
             (s, e) => {
-                this.txtOperador.Text = seleccionado;
-                this.txtOperador.ResignFirstResponder();
+                txtOperador.Text = _seleccionado;
+                txtOperador.ResignFirstResponder();
             });
 
             toolbar.SetItems(new UIBarButtonItem[] { cancelarBoton, espacioEntreBoton, tituloCajaTexto, espacioEntreBoton, hechoBoton }, true);
@@ -217,26 +223,27 @@ namespace ProyectoFinal5.iOS
 
             toolbar.SizeToFit();
 
-            this.txtOperador.InputView = picker;
+            txtOperador.InputView = picker;
 
-            this.txtOperador.InputAccessoryView = toolbar;
+            txtOperador.InputAccessoryView = toolbar;
 
 
             hechoBoton.Clicked += delegate
             {
-                var modelo = new PckOperadoresModel(_operadores);
-                var posicion = modelo.SelectedIndex;
+                int posicion;
 
-                //var posicion = ((PckOperadoresModel)PckOperadores.Model).SelectedIndex;
-
-                if (posicion == -1)
+                if (_seleccionado == PckOperadoresModel.TituloTodosOperadores)
                 {
-                    FiltrarViajesOperador(posicion);
+                    posicion = -1;
                 }
                 else
                 {
-                    FiltrarViajesOperador(_operadores[posicion].UsuarioId);
+                    posicion = _operadores.FindIndex(o => o.Nombre == _seleccionado);
                 }
+
+                //var posicion = ((PckOperadoresModel)PckOperadores.Model).SelectedIndex;
+
+                FiltrarViajesOperador(posicion);
             };
 
         }

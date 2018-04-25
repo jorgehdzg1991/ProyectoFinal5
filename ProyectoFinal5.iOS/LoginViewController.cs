@@ -85,7 +85,7 @@ namespace ProyectoFinal5.iOS
 
             controlador.EsLogin = true;
 
-            PresentViewControllerAsync(controlador, true);
+            NavigationController.PushViewController(controlador, true);
         }
 
 		public override void TouchesBegan(NSSet touches, UIEvent evt)

@@ -5,7 +5,7 @@ using CoreGraphics;
 using Foundation;
 using UIKit;
 
-namespace TransportaAppAdmin_iOS
+namespace ProyectoFinal5.iOS
 {
 	public partial class CustomTextField : UITextField
 	{

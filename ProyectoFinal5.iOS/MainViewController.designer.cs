@@ -7,7 +7,7 @@
 using Foundation;
 using System.CodeDom.Compiler;
 
-namespace TransportaAppAdmin_iOS
+namespace ProyectoFinal5.iOS
 {
 	[Register ("MainViewController")]
 	partial class MainViewController

@@ -8,9 +8,9 @@ namespace ProyectoFinal5.iOS.Models
     public class PckOperadoresModel : UIPickerViewModel
     {
         List<Usuario> _operadores;
-        private UITextField personTxt;
+        UITextField personTxt;
 
-        const string TituloTodosOperadores = "Todos los operadores";
+        public const string TituloTodosOperadores = "Todos los operadores";
 
         public int SelectedIndex { get; set; }
         public Usuario SelectedItem { get { return _operadores[SelectedIndex]; } }

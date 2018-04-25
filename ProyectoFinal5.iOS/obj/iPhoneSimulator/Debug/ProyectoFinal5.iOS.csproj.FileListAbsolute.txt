@@ -58,3 +58,4 @@
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.iOS/obj/iPhoneSimulator/Debug/ProyectoFinal5.iOS.csproj.CoreCompileInputs.cache
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.iOS/obj/iPhoneSimulator/Debug/TransportaAppAdmin_iOS.exe
 /Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.iOS/obj/iPhoneSimulator/Debug/TransportaAppAdmin_iOS.pdb
+/Users/jhernandez/Documents/Repositorios Github/ProyectoFinal5/ProyectoFinal5.iOS/obj/iPhoneSimulator/Debug/ProyectoFinal5.iOS.csprojResolveAssemblyReference.cache
